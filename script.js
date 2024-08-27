@@ -21,7 +21,7 @@ function adicionarLinha() {
     } else {
         listaNome.push(inputNome.value)
         listaTelefone.push(inputTelefone.value)
-
+                
         let linha = '<tr>'
         linha += `<td>${inputNome.value}</td>`
         linha += `<td>${inputTelefone.value}</td>`
